@@ -1,0 +1,139 @@
+body{
+    margin:0px;
+    padding: 150px;
+    background:url(img/contact.jpeg);
+    font-family: Arial;
+    box-sizing: border-box;
+}
+.card-container{
+    width: 300px;
+    height: 430px;
+    background: #FFF;
+    border-radius: 6px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    box-shadow: 0px 1px 10px 1px #000;
+    overflow:hidden;
+    display: inline-block;
+} 
+
+.upper-container{
+    height:150px;
+    background: gray;
+}
+
+.lower-container{
+    height:280px;
+    background:#fff; 
+    padding: 20px;
+    padding-top: 40px; 
+    text-align: center; 
+}
+
+.lower-container h3,h4{
+    box-sizing:border-box;
+    line-height: .6;
+    font-weight: lighter;
+}
+
+.lower-container h4{
+    color: solid black;
+    opacity: .6;
+    font-weight:bolder;
+}
+
+.lower-container p{
+    font-size: 16px;
+    color:gray;
+    margin-bottom:30px;
+}
+
+.lower-container .btn{
+    padding:12px 20px;
+    background:lightgrey;
+    border: none;
+    color:white;
+    border-radius: 30px;
+    font-size:12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .3s ease-in;
+}
+
+.lower-container .btn:hover{
+    background: transparent;
+    color:black;
+    border:2px solid black;
+}
+
+.image-container{
+    background: white;
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    padding: 5px;
+    transform: translate(100px,100px);
+}
+
+.image-container img{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background:grey;
+}
+
+nav .logo img{
+    padding-top: 0;
+    height:90px;
+    width:150px;
+    float:left;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff; */
+}
+
+nav ul{
+    list-style: none;
+    float:right;
+    margin:0;
+    padding:0;
+    display:flex;   
+}
+
+nav ul li a{
+    line-height: 80px;
+    color:#fff;
+    padding:12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    background:rgba(0, 0,0, 0.7);
+    border-radius: 6px;
+}
+
+nav ul li a.active{
+    background: #e2472f;
+    color:#fff;
+    border-radius: 6px;
+}
